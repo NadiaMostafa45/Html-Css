@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to right, #0a0a0a, #32242f, #575256);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 200px ;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    
+    
+  }
+  
+  .profile-image {
+    width: 750px;
+    height: 700px;
+    margin-right: 50px;
+    border-radius: 5%;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: blueviolet;
+  }
+  .profile-image:hover {
+    background-blend-mode: multiply;
+    background-color: rgb(55, 7, 158);
+  }
+  .icon
+  {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      flex-direction: column;
+      margin-left: 100px;
+      font-size: 3em;
+  }
+  #bb
+  {
+   margin-top: 25px;
+   margin-right: 0px;
+  }
+  #bbb
+  {
+   margin-top: 25px;
+   margin-right: 0px;
+  }
+  #bbbb
+  {
+   margin-top: 25px;
+   margin-right: 0px;
+  }
+  
+
+  #bbbb:hover{
+    background-color: blueviolet;
+  }
+  #bbb:hover{
+   
+    background-color: blueviolet;
+  }
+  #bb:hover{
+    background-color: blueviolet;
+  }
+  #b:hover{
+    background-color: blueviolet;
+  }
+  .resume
+  {
+    font-size: .7em;
+   
+    border: 2px solid blueviolet;
+    border-radius: 800px;
+   
+  }
+  .resume:hover
+  {
+    background-color: blueviolet;
+  }
+  #down
+  {
+   margin-left: 0px;
+   font-size: 1em;
+   background-color: blueviolet;
+   border-radius: 50%;
+  }
